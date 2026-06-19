@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Abdul Hadi - AI Student and aspiring AI Engineer building intelligent software systems, machine learning solutions, computer vision applications, and full-stack AI-powered products.">
+  <title>Abdul Hadi | AI Engineer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <canvas class="neural-canvas" id="neuralCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Abdul Hadi home">
+        <span class="brand-mark">AH</span>
+        <span>Abdul Hadi</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#experience">Experience</a></li>
+        <li><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AI engineer portfolio</p>
+        <h1>Abdul Hadi</h1>
+        <p class="hero-title"><span id="typedRole">AI Student | AI Engineer</span><span class="cursor"
+            aria-hidden="true"></span></p>
+        <p class="hero-lede">
+          Focused on Artificial Intelligence, Computer Vision, Machine Learning, and AI-powered software systems.
+          Passionate about building intelligent solutions that solve real-world problems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbital-ring" aria-hidden="true"></div>
+        <article class="profile-card">
+          <div class="profile-terminal">
+            <span></span><span></span><span></span>
+            <strong>Profile</strong>
+          </div>
+          <div class="profile-image-wrap">
+            <img src="Profile Picture.jpeg" alt="Abdul Hadi professional profile picture" class="profile-image">
+          </div>
+          <div class="profile-meta">
+            <div>
+              <span class="mono">identity</span>
+              <strong>AI Engineer</strong>
+            </div>
+            <div>
+              <span class="mono">focus</span>
+              <strong>AI / ML / Vision</strong>
+            </div>
+            <div>
+              <span class="mono">status</span>
+              <strong>Internship Ready</strong>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Building intelligent systems with strong software engineering foundations.</h2>
+          <p>
+            BS Artificial Intelligence student at FAST-NUCES Islamabad, building intelligent systems that combine AI,
+            software engineering, and real-world applications. I develop AI solutions that transform complex problems
+            into working systems.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-panel about-text reveal">
+            <p>
+              I am a 3rd year BS Artificial Intelligence student at FAST-NUCES Islamabad with a focus on Artificial
+              Intelligence, Computer Vision, embedded AI, and full-stack development.
+            </p>
+            <p>
+              I enjoy creating intelligent systems that combine machine learning models, software engineering, and
+              real-world applications.
+            </p>
+            <p>
+              Beyond coursework, I have worked as a Lab Demonstrator teaching C++ Object-Oriented Programming to
+              first-year students, improving my technical understanding and communication skills.
+            </p>
+            <p>
+              My goal is to develop production-level AI systems that solve meaningful problems.
+            </p>
+          </article>
+
+          <div class="highlight-grid">
+            <article class="highlight-card reveal">
+              <span>AI</span>
+              <h3>Artificial Intelligence</h3>
+              <p>Designing intelligent decision workflows and applied AI systems.</p>
+            </article>
+            <article class="highlight-card reveal">
+              <span>ML</span>
+              <h3>Machine Learning</h3>
+              <p>Developing model-driven solutions that learn from data and context.</p>
+            </article>
+            <article class="highlight-card reveal">
+              <span>CV</span>
+              <h3>Computer Vision</h3>
+              <p>Building perception systems for recognition, detection, and analysis.</p>
+            </article>
+            <article class="highlight-card reveal">
+              <span>FS</span>
+              <h3>Full Stack Development</h3>
+              <p>Creating reliable web products around AI-powered experiences.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-section" id="education">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Academic training in Artificial Intelligence.</h2>
+        </div>
+
+        <article class="education-card glass-panel reveal">
+          <div class="degree-block">
+            <span class="mono">Current degree</span>
+            <h3>BS Artificial Intelligence</h3>
+            <p>National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad</p>
+            <strong>5th Semester</strong>
+          </div>
+          <div>
+            <h3>Relevant Courses</h3>
+            <ul class="pill-list">
+              <li>Artificial Intelligence</li>
+              <li>Object Oriented Programming</li>
+              <li>Data Structures & Algorithms</li>
+              <li>Software Engineering</li>
+              <li>Linear Algebra</li>
+              <li>Probability & Statistics</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Technical stack for AI engineering and full-stack products.</h2>
+          <p>Core skills across AI, machine learning concepts, computer vision, backend development, and production
+            tooling.</p>
+        </div>
+
+        <div class="skills-grid reveal" id="skillsGrid">
+          <article class="skill-card">
+            <h3>Programming Languages</h3>
+            <div class="skill-row"><span>Python</span><i style="--level: 92%"></i></div>
+            <div class="skill-row"><span>C++</span><i style="--level: 86%"></i></div>
+            <div class="skill-row"><span>JavaScript</span><i style="--level: 82%"></i></div>
+            <div class="skill-row"><span>Arduino C</span><i style="--level: 78%"></i></div>
+            <div class="skill-row"><span>HTML</span><i style="--level: 88%"></i></div>
+            <div class="skill-row"><span>CSS</span><i style="--level: 86%"></i></div>
+          </article>
+
+          <article class="skill-card">
+            <h3>AI / ML</h3>
+            <div class="skill-row"><span>Artificial Intelligence</span><i style="--level: 88%"></i></div>
+            <div class="skill-row"><span>Computer Vision</span><i style="--level: 86%"></i></div>
+            <div class="skill-row"><span>LLM Integration</span><i style="--level: 76%"></i></div>
+            <div class="skill-row"><span>Machine Learning concepts</span><i style="--level: 82%"></i></div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Web Development</h3>
+            <div class="skill-row"><span>Node.js</span><i style="--level: 82%"></i></div>
+            <div class="skill-row"><span>Express.js</span><i style="--level: 80%"></i></div>
+            <div class="skill-row"><span>REST APIs</span><i style="--level: 84%"></i></div>
+            <div class="skill-row"><span>MySQL</span><i style="--level: 78%"></i></div>
+            <div class="skill-row"><span>JWT Authentication</span><i style="--level: 76%"></i></div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <div class="skill-row"><span>Git</span><i style="--level: 84%"></i></div>
+            <div class="skill-row"><span>GitHub</span><i style="--level: 84%"></i></div>
+            <div class="skill-row"><span>VS Code</span><i style="--level: 90%"></i></div>
+            <div class="skill-row"><span>MySQL Workbench</span><i style="--level: 75%"></i></div>
+            <div class="skill-row"><span>Arduino IDE</span><i style="--level: 82%"></i></div>
+            <div class="skill-row"><span>Jupyter Notebook</span><i style="--level: 86%"></i></div>
+          </article>
+
+          <article class="skill-card wide-skill">
+            <h3>Concepts</h3>
+            <ul class="pill-list">
+              <li>OOP</li>
+              <li>Data Structures & Algorithms</li>
+              <li>Embedded Systems</li>
+              <li>AI and ML</li>
+              <li>Software Engineering</li>
+              <li>Real-time AI Systems</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Intelligent software systems and AI-powered products.</h2>
+          <p>Projects are presented as applied AI systems, with robotics appearing as one application area of
+            intelligent engineering.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="AEGIS.jpeg" alt="AEGIS autonomous emergency response system hardware">
+            </div>
+            <div class="project-content">
+              <p class="project-kicker mono">AI emergency intelligence</p>
+              <h3>AEGIS:<br>Autonomous Emergency Ground Intelligence System</h3>
+              <p>
+                An AI-powered emergency response system combining computer vision, perception, and intelligent
+                decision-making. The system detects victims, fire, and environmental conditions using AI models,
+                performs real-time analysis, and enables autonomous responses.
+              </p>
+              <div class="tag-list">
+                <span>Python</span><span>ROS2</span><span>YOLOv8</span><span>MediaPipe</span><span>MQTT</span><span>ESP32</span><span>Ollama</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="NeoPetPetifi.jpeg" alt="NeoPet PETiFI AI companion and security system">
+            </div>
+            <div class="project-content">
+              <p class="project-kicker mono">AI companion security</p>
+              <h3>NeoPet (PETiFI):<br>AI-Powered Companion & Security Robot</h3>
+              <p>
+                An AI-based companion and security system using computer vision and intelligent recognition. The system
+                performs face recognition, interaction detection, and real-time alerts using AI models.
+              </p>
+              <div class="tag-list">
+                <span>Python</span><span>C++</span><span>TensorFlow
+                  Lite</span><span>MediaPipe</span><span>OpenCV</span><span>MQTT</span><span>ESP32</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="EduVault.jpeg" alt="EduVault online learning resource repository login interface">
+            </div>
+            <div class="project-content">
+              <p class="project-kicker mono">Full-stack AI-ready platform</p>
+              <h3>EduVault:<br>Online Learning Resource Repository</h3>
+              <p>
+                A full-stack AI-ready academic platform with authentication, role-based access control, resource
+                management, moderation workflows, and document handling.
+              </p>
+              <div class="tag-list">
+                <span>Node.js</span><span>Express.js</span><span>MySQL</span><span>JavaScript</span><span>JWT</span><span>Multer</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-section" id="experience">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Technical teaching experience that strengthened fundamentals.</h2>
+        </div>
+
+        <article class="timeline-card glass-panel reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div>
+            <h3>Lab Demonstrator — FAST-NUCES Islamabad</h3>
+            <p class="timeline-date mono">Jan 2026 - May 2026</p>
+            <p>
+              Conducted weekly C++ OOP lab sessions for first-year Cybersecurity students, covering classes,
+              inheritance, and polymorphism. Guided students through programming concepts, graded assignments, and
+              provided technical feedback.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Focused credentials across AI and hardware systems.</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="credential-card reveal">
+            <span>01</span>
+            <h3>Robotics & Hardware Systems Certificate</h3>
+            <p>FAST-NUCES Department of AI & DS</p>
+          </article>
+          <article class="credential-card reveal">
+            <span>02</span>
+            <h3>Innovating with Google Cloud Artificial Intelligence</h3>
+            <p>Google Cloud</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-section" id="services">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Professional capabilities for AI and software teams.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">AI Development</article>
+          <article class="service-card reveal">Machine Learning Solutions</article>
+          <article class="service-card reveal">Computer Vision Applications</article>
+          <article class="service-card reveal">Full Stack Development</article>
+          <article class="service-card reveal">Python Automation</article>
+          <article class="service-card reveal">AI System Integration</article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="shell">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build intelligent systems that matter.</h2>
+            <p class="contact-intro">
+              Available for AI internships, research opportunities, software engineering roles, and applied AI
+              collaborations.
+            </p>
+
+            <div class="contact-list">
+              <a href="mailto:abdulhadi3049@gmail.com">
+                <span class="mono">EM</span>
+                abdulhadi3049@gmail.com
+              </a>
+              <a href="https://github.com/abdulhadi2005" target="_blank" rel="noreferrer">
+                <span class="mono">GH</span>
+                github.com/abdulhadi2005
+              </a>
+              <a href="https://linkedin.com/in/abdulhadi2005" target="_blank" rel="noreferrer">
+                <span class="mono">IN</span>
+                linkedin.com/in/abdulhadi2005
+              </a>
+            </div>
+
+            <div class="social-icons" aria-label="Social links">
+              <a href="mailto:abdulhadi3049@gmail.com" aria-label="Email Abdul Hadi">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 6h16v12H4V6Z" />
+                  <path d="m4 7 8 6 8-6" />
+                </svg>
+              </a>
+              <a href="https://github.com/abdulhadi2005" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M9 19c-4 1.2-4-2-5.6-2.4M14.6 22v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.7-1.4 5.7-6.1a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.5 11.5 0 0 0-6.1 0C6.5 3.5 5.5 3.8 5.5 3.8a4.3 4.3 0 0 0-.1 3.3 4.7 4.7 0 0 0-1.3 3.3c0 4.7 2.9 5.8 5.7 6.1-.4.4-.6.9-.6 1.8V22" />
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/abdulhadi2005" target="_blank" rel="noreferrer"
+                aria-label="LinkedIn profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 11v7M8 7.5v.01M12 18v-7M12 14.5c0-2 1-3.5 3-3.5s3 1.3 3 3.5V18M4 4h16v16H4V4Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              Message
+              <textarea name="message" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-content">
+      <p>&copy; <span id="year"></span> Abdul Hadi. All rights reserved.</p>
+      <p class="mono">AI Engineer who builds intelligent software systems.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
